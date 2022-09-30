@@ -1,0 +1,83 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;
+  font-size:large;   
+}  
+.container {  
+    padding: 0;  
+}  
+input[type=text] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+  
+ div {  
+            padding: 10px;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+   background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right; 
+}  
+.registerbtn:hover {  
+  opacity: 1;  
+}  
+.centre{
+text-align:center;
+}
+label {
+  padding: 12px 12px 12px 12px;
+  display: inline-block;
+}
+</style>  
+</head>  
+<body>  
+<form>  
+  <div class="container">  
+  <center>  <h1> Registeration Form</h1> </center>  
+  <hr>  
+  <label><b> Firstname:</b> </label>  
+<input type="text" name="firstname" size="15" required />   <br>
+<label><b> Middlename:</b> </label>   
+<input type="text" name="middlename" size="15" required />   <br>
+<label><b> Lastname:</b> </label>    
+<input type="text" name="lastname" size="15"required />   <br>
+<label>   
+<b>Phone:</b>  
+</label>    
+<input type="text" name="phone" size="10"/ required>   <br>
+ <label><b>Email:</b></label>  
+ <input type="text" name="email" /required>  <br>
+<label>
+<b>City:</b>
+</label>
+<input type="text" name="city"/> <br>
+<label>
+<b>State:</b>
+</label>
+<input type="text" name="state"/> <br>
+<label>
+<b>Country:</b>
+</label> 
+<input type="text" name="country"/> <br>
+<div class="centre">
+<button type="submit" class="registerbtn">Register</button> </div>
+ </form>  
+</body>  
+</html>  
