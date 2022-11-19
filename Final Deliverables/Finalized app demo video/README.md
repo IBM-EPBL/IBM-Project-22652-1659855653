@@ -1,1 +1,0 @@
-Hello, Since the demo video is too large to upload directly into the github repository. Demo video is uploaded to the google drive. [Watch it here](https://drive.google.com/file/d/1C1Z0yXYaYxLx5Naql7Gf0kbli4E2-Z9w/view?usp=share_link)
